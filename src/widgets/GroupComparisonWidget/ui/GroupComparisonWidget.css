@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 3rem;
+    gap: 2rem;
+    align-items: center;
+}

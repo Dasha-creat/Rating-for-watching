@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-tooltip {
+    position: absolute;
+    top: 8rem;
+    right: 0;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    width: 16rem; 
+    display: none;
+  }
+
+.header-criterion {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.period-div {
+    margin-top: 1rem;
+}
+
+.header-period {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+  
+  @media (min-width: 640px) {
+    .custom-tooltip {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .custom-tooltip {
+      display: none;
+    }
+  }
+  

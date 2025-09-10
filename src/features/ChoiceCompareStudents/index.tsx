@@ -1,0 +1,1 @@
+export { TwoStudentsSelectButton } from './ui/CompareDropdown';

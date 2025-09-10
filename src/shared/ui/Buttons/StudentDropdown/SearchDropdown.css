@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 60px;
+}
+
+.button-items{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.student-list{
+    position: absolute;
+    margin-top: 0.5rem;
+    background-color: #374151;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    height: 24rem;
+    border-radius: 0.5rem; 
+    padding: 0.25rem; 
+    width: 300px;
+    height: 350px;
+}
+
+.mini-student-list {
+    padding: 0.5rem;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+}
+  
+.input::placeholder{
+    color: white;
+}
+
+.list{
+    height: 80%;
+    overflow-y: auto;
+}
+
+.student{
+    display: block; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+    margin: 0.25rem; 
+}
+
+.student:hover{
+    background-color: white;
+    color: #424242;
+}
+
+.selected-class {
+    background-color: white;
+    color: #424242;
+}
+
+    /* @media (max-width: 360px) {
+        .student-list {
+        width: 93%;
+        margin-left: 5%;
+        transform: translateX(-1rem);
+        }
+    }
+  
+    @media (min-width: 361px) and (max-width: 424px) {
+        .student-list {
+        width: 80%;
+        margin-left: 0rem;
+        }
+    }
+  
+    @media (min-width: 425px) and (max-width: 767px) {
+        .student-list {
+        width: 70%;
+        margin-left: 0rem;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .student-list {
+            width: 40%;
+            margin-left: 0rem;
+            }
+    }
+  
+    @media (min-width: 1024px) {
+        .student-list {
+        width: 27%;
+        margin-left: 0.75rem;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .student-list {
+        width: 70%;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .student-list {
+        width: 20%;
+        margin-left: 0.75rem;
+        }
+    }
+
+    @media (min-width: 2560px) {
+        .student-list {
+            width: 12%;
+        }
+    } */

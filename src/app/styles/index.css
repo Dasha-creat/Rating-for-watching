@@ -1,0 +1,135 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  color: (255, 255, 255, 1);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-left: 9rem;
+  margin-top: 5rem;
+  color: rgba(56, 56, 57, 1);
+}
+
+.content, p {
+  padding: 1rem 0;
+}
+
+.centered{
+  text-align: center;
+}
+
+.other{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.a{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.p{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.five{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.mainNavbar{
+  background: rgba(138, 43, 226, 1);
+  height: 120px;
+  container: none;
+}
+
+.four{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hover\:fourtwo:hover{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.fourtwo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.bodymain{
+  height: 100vh;
+}
+
+.button{
+  background-color: rgba(138, 43, 226, 1);
+}
+
+.button:focus-visible {
+  background-color: rgba(138, 43, 226, 1);
+}
+
+.custom-button:focus, .custom-button:active {
+  background-color: rgba(138, 43, 226, 1);
+  border: none;
+}
+
+.six{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.custom-button:focus, .custom-button:active {
+  background-color: rgba(138, 43, 226, 1);
+  border: none;
+}
+
+.second-b:focus, .second-b:active {
+  background-color: rgb(255, 255, 255);
+}
+
+.custom-button span {
+  font-size: 1.25rem;
+}
+
+.custom-dropdown-item span {
+  font-size: 1.25rem; 
+}
+
+.react-calendar__tile--highlight {
+  background-color: rgba(138, 43, 226, 1);
+  color: white;
+}

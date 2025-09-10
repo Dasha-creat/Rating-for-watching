@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calendar {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    transform: translateY(30%);
+}
+
+.calendar-div {
+    position: absolute;
+    z-index: 10;
+    margin-left: -2rem;
+}
+
+.button-calendar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  display: inline;
+  color: white;
+  border-radius: 0.5rem;
+  width: 300px;
+}
+
+.main-div {
+    position: relative;
+}
+
+  @media (max-width: 320px) {
+    .button-calendar {
+      width: 20rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .calendar-div {
+      width: 100%;
+      justify-content: center;
+      margin-left: 0rem;
+    }
+  }
+

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button-back {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.button-back:active,
+.button-back:focus {
+  background-color: white;
+}
+
+@media (max-width: 735px) {
+  .button-back{
+    width: 100%;
+    justify-content: center;
+    margin-left: -1rem;
+  }
+}

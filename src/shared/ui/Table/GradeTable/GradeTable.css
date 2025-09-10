@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dates-th {
+	border-width: 1px;
+    border-color: rgb(209 213 219);
+    padding: 1rem;
+    min-width: 150px;
+}
+
+.div-table {
+    overflow-x: auto;
+}
+
+.table {
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+.title-th {
+    position: sticky;
+    margin-left: 0;
+    padding: 1rem;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(209 213 219);
+    min-width: 150px;
+}
+
+.subject-td {
+    position: sticky;
+    margin-left: 0;
+    padding: 1rem;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(209 213 219);
+}
+
+.date-td {
+    border-width: 1px;
+    border-color: rgb(209 213 219);
+    padding: 1rem;
+}

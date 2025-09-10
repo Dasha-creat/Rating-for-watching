@@ -1,0 +1,1 @@
+export { GroupComparisonWidget } from './ui/GroupComparisonWidget'

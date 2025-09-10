@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.footer{
+    padding: 4rem;
+    background-color: rgba(67, 68, 69, 1);
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+  }
+  
+.cdt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    order: 3;
+}
+
+.cdt-text{
+    font-size: 1rem;
+}
+
+.working-hours{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    order: 1;
+    margin-bottom: 5rem;
+}
+
+.working-hours-title{
+    font-size: 1.125rem;
+}
+
+.working-hours-element{
+    justify-content: space-between;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.no-text-transform {
+    text-transform: none;
+}
+
+.working-hours-day{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.working-hours-time{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.25rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 5rem;
+    order: 2;
+}
+
+.contacts-title{
+    padding-left: 4.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.contacts-element{
+    display: flex;
+    gap: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+
+.social-media{
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.social-media-element{
+    display: flex;
+    gap: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+
+  @media (min-width: 1024px) {
+    .footer{
+        flex-direction: row;
+    }
+
+    .cdt{
+        order: 0;
+    }
+
+    .cdt-text{
+        font-size: 1.5rem;
+    }
+
+    .working-hours{
+        order: 0;
+    }
+
+    .working-hours-title{
+        font-size: 1.5rem;
+    }
+
+    .working-hours-element{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .working-hours-day{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .working-hours-time{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .contacts{
+        margin-bottom: 0;
+        order: initial;
+    }
+    
+    .contacts-title{
+        font-size: 1.5rem; 
+        line-height: 2rem;
+        padding-left: 5.75rem;
+    }
+
+    .contacts-element{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .social-media{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-left: 3.5rem;
+    }
+
+    .social-media-element{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+}
+

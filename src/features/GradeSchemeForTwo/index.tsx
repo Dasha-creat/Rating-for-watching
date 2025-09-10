@@ -1,0 +1,1 @@
+export { RozaSchemeForTwo } from './ui/RozaGrade.tsx'
